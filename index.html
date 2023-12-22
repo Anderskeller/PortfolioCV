@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+<nav id="desktop-nav">
+  <div class="logo">Anders <span> Keller </span> </div>
+  <div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<nav id="hamburger-nav">
+  <div class="logo">Anders <span>Keller </span> </div>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+      <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+  </div>
+</nav>
+<section id="profile">
+  <div class="section__pic-container">
+    <img src="./Images/AndersSelfie (1)-min.png" alt="Anders Keller profile picture" />
+  </div>
+  <div class="section__text">
+    <p class="section__text__p1">Hello, I'm</p>
+    <h1 class="title">Anders <span> Keller </span> </h1>
+    <p class="section__text__p2">IT-Architecture <span> student. </span></p>
+    <div class="btn-container">
+      <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/resume-example.pdf')" >
+        Download CV
+      </button>
+      <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        Contact Info
+      </button>
+    </div>
+    <div id="socials-container">
+      <img
+              src="./Images/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/anderskeller/'"
+      />
+      <img
+              src="./Images/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/Anderskeller'"
+      />
+    </div>
+  </div>
+</section>
+<section id="about">
+  <p class="section__text__p1">Get To Know More</p>
+  <h1 class="title">About Me</h1>
+  <div class="section-container">
+    <div class="about-details-container">
+      <div class="text-container">
+        <p>
+          Im Anders Keller, an IT architecture student focusing to become a full-stack developer.
+          That can provide different IT-solutions and bringing a positive vibe to the table. I have a drive for always learning new things and
+          I'm not afraid to take on new challenges. When I have time, you'll find me exploring new places around the world,
+          with a highly curiosity to see what's beyond little Denmark.
+        </p>
+      </div>
+      <div class="about-containers">
+        <div class="details-container">
+          <h3>Qualities</h3>
+          <p><span>Humility > </span><br>Always learning and welcoming feedback in my IT journey.</p>
+          <p><span>Professionalism > </span><br>ensuring that tasks are approached with a high level of dedication and competence.</p>
+          <p><span>Detail Oriented > </span><br>I want to make everything good as possible</p>
+          <p><span>Creativity ></span> <br>Thinking outside the box, trying exciting things in IT projects.</p>
+          <p><span>Teamwork > </span><br>I am openminded, i can mostly work with everyone</p>
+
+        </div>
+
+        <div class="details-container">
+          <h3>Education</h3>
+          <p>Bachelor Degree IT-Architecure at KEA (2023 - 2027) </p>
+          <p>This is what my education <span>provides me: </span> </p> <br/>
+          <p> <span>1. SEMESTER: </span> DATA AND DATA VISUALIZATION</p>
+          <p> <span>2. SEMESTER: </span> APPLICATIONS & APPLICATION DEVELOPMENT</p>
+          <p> <span>3. SEMESTER: </span> SYSTEMS AND SYSTEM INTEGRATION</p>
+          <p> <span>4. SEMESTER: </span> ARCHITECTURE AND ARCHITECTURE DEVELOPMENT</p>
+          <p> <span>5. SEMESTER: </span> SPECIALIZATION</p>
+          <p> <span>6/7 SEMESTER: </span>Internship/Bachelor-Project  </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <img
+          src="./Images/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+  />
+</section>
+<section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container">
+    <div class="about-containers2">
+      <div class="details-container2">
+        <h2 class="experience-sub-title">Frontend Development</h2>
+        <div class="article-container">
+          <article>
+            <img src="./Images/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>HTML</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="./Images/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>CSS</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="./Images/checkmark.png" alt="Experience icon" class="icon"/>
+            <div>
+              <h3>Express.js</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img src="./Images/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>JavaScript</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img src="./Images/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Tableau</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="details-container2">
+        <h2 class="experience-sub-title">Backend Development</h2>
+        <div class="article-container">
+          <article>
+            <img src="./Images/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Node JS</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img src="./Images/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>NoSQL & Firestore</h3>
+              <p>basic</p>
+            </div>
+          </article>
+          <article>
+            <img src="./Images/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Git</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img src="./Images/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>MYSQL</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+          src="./Images/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+  />
+</section>
+<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+                  src="./Images/ComingSoon.jpeg"
+                  alt="Project 1"
+                  class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Project One</h2>
+        <div class="btn-container">
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Anderskeller'"
+          >
+            Github
+          </button>
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Anderskeller'"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+                  src="./Images/ComingSoon.jpeg"
+                  alt="Project 2"
+                  class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Project Two</h2>
+        <div class="btn-container">
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Anderskeller'"
+          >
+            Github
+          </button>
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Anderskeller'"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+                  src="./Images/ComingSoon.jpeg"
+                  alt="Project 3"
+                  class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Project Three</h2>
+        <div class="btn-container">
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Anderskeller'"
+          >
+            Github
+          </button>
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Anderskeller'"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+          src="./Images/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+  />
+</section>
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img
+              src="./Images/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:anderskeller00@gmail.com">anderskeller@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img
+              src="/Images/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/anderskeller/">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2023 Anders Keller. All Rights Reserved.</p>
+</footer>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
